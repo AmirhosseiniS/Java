@@ -1,0 +1,9 @@
+public class P5 {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 100;(100 <= i)&&(i <= 200); i++){
+        if (i % 2 == 0) {
+            sum += i;}}
+        System.out.println("The sum of all even numbers between 100 and 200 is:" + sum );
+    }
+}
